@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="100%" width="800px" [attr.viewBox]="'0 0 '+width+' '+height">
+  <style type="text/css">
+    line {
+      stroke: #ccc;
+    }
+  </style>
+  <svg:defs>
+    <svg:g grid id=grid transform="rotate(180)"></svg:g>
+  </svg:defs>
+  <svg:g class="container">
+    <svg:g class="origin" transform="rotate(180) translate(0,-200)">
+      <ng-content></ng-content>
+    </svg:g>
+  </svg:g>
+</svg>

@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
-import { IsometricGridComponent } from 'libs/isometric-grid/src/lib/isometric-grid.component';
+import { FrameComponent } from 'libs/isometric-grid/src/lib/frame.component';
 import { AppComponent } from './app.component';
 
 describe('AppComponent', () => {
@@ -11,7 +11,7 @@ describe('AppComponent', () => {
       ],
       declarations: [
         AppComponent,
-        IsometricGridComponent
+        FrameComponent
       ],
     }).compileComponents();
   });

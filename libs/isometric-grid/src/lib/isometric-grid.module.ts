@@ -1,13 +1,14 @@
 import { NgModule } from '@angular/core';
-import { IsometricGridComponent } from './isometric-grid.component';
+import { FrameComponent } from './frame.component';
+import { GridComponent } from './grid/grid.component';
 
 /**
  * Isometric Grid Module
  */
 @NgModule({
-    declarations: [IsometricGridComponent],
+    declarations: [FrameComponent, GridComponent],
     imports: [],
-    exports: [IsometricGridComponent]
+    exports: [FrameComponent, GridComponent]
 })
 export class IsometricGridModule {
 
